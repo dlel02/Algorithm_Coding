@@ -5,6 +5,6 @@ while count < 1:
     
     if a == 0 and b == 0:
         count += 1
-    else:
-        print(a + b)
+        break
+    print(a + b)
     
