@@ -12,7 +12,7 @@ for _ in range(t):
             if i in seen:
                 answer = False
                 break
-            seen.add(i)
+        seen.add(i)
         prev = i
     if answer:
         count +=1
