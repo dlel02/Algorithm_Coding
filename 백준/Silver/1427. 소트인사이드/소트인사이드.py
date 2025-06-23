@@ -1,6 +1,9 @@
 N = input()
 
-sorted_digits = sorted(N, reverse=True)
-result = ''.join(sorted_digits)
+N = list(N)
+
+N.sort(reverse=True)
+
+result = "".join(N)
 
 print(result)
